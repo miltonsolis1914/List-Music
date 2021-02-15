@@ -1,7 +1,6 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
 /* 
-
     You can write your own styles here...
     
     
@@ -9,5 +8,26 @@
     other sylesheets into your bunde as well, e.j:
     
     import 'relative/path/to/stylesheet.scss';
-
 */
+.shadow-none{
+border: solid black 1px;
+text-align: justify;
+text-align: center;
+width: 400px;
+height: 50px;
+margin-left: auto;
+margin-right: auto;
+padding: 0px 0px 0px 0px;
+}
+body{
+   background-image: url(https://salud.nih.gov/Content/images/article/2018-feb-feature1.jpg);
+   
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 400px;
+
+
+}
